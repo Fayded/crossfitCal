@@ -1,2 +1,25 @@
 Notes --
 
+Set up a project with Git
+
+I went into Github and clicked the create a new repo button in the top right next to settings. I filled in the repository name, gave a description, checked the box to initialize the README file then clicked the create repository button. 
+
+I proceeded to my Terminal, found in applications -> utiilities (make a short cut because you will learn to love this thing). This part will be different for you because you probably have not authenticated your github key to your computer, if you have then this would normally work. However, we want to work off the same directory, so you will want to clone or fork my project. The collaboration thing is a little fuzzy for me, but we will work through it. I think you want to fork, because you plan to work on it. Either way you will want to get my files from github onto your system. For each line I typed the following: (Tungsten is the name of my computer with my name being the User and projects being the folder I wanted to place this new project)
+
+Tungsten:projects KevinFay$ mkdir crossfitCal
+Tungsten:projects KevinFay$ cd crossfitCal
+Tungsten:crossfitCal KevinFay$ git init
+Initialized empty Git repository in /Users/KevinFay/projects/crossfitCal/.git/
+Tungsten:crossfitCal KevinFay$ git add .
+Tungsten:crossfitCal KevinFay$ git commit -m "initial commit"
+Tungsten:crossfitCal KevinFay$ git push
+
+
+Whenever you open up the project in the next couple weeks, you will want to first go "git pull". This will pull down to your computer any changes I have made. When you make a change to an existing file, git commit -m "your message to help team here" needs to be the command. If you add a file that is not already included in the repo, you type git add name_of_file. It's a repository and tracks our moves so if you screw up it's not a big deal, I have written over plenty of peoples files and have had mine written over too many to count. 
+
+I included the underscore theme with the name "crossfit" in the directory. 
+
+Tungsten:crossfitCal KevinFay$ git add .
+Tungsten:crossfitCal KevinFay$ git commit -m "underscore"
+// Spits out all the files included
+Tungsten:crossfitCal KevinFay$ git push
