@@ -57,7 +57,7 @@ details,
 figcaption,
 figure,
 footer,
-header,
+header, 
 nav,
 section {
 	display: block;
@@ -95,7 +95,9 @@ a img {
 /* =Global
 ----------------------------------------------- */
 
-body,
+body { 
+	background-color: #DEDEDE;
+}
 button,
 input,
 select,
@@ -307,9 +309,10 @@ textarea {
 	width: 98%;
 }
 
+
 /* Links */
 a {
-	color: royalblue;
+	color: white;
 }
 a:visited {
 	color: purple;
@@ -317,7 +320,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: white;
 }
 
 /* Alignment */
@@ -598,3 +601,17 @@ object {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
+
+/* =Header 
+------------------------------------------------
+header {
+	background-color: black;
+	height: 50px;
+
+}
+*/
+
+
+/* remove header from home page */
+.page-id-29  .entry-title {display: none;} 
+

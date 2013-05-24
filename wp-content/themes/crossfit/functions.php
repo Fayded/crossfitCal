@@ -123,10 +123,10 @@ function crossfit_scripts() {
 add_action( 'wp_enqueue_scripts', 'crossfit_scripts' );
 
 /**
- * Implement the Custom Header feature.
- */
-//require( get_template_directory() . '/inc/custom-header.php' );
-
+ * Implement the Custom Header 
+* 	require( get_template_directory() . '/inc/custom-header.php' );
+*
+*/
 /**
  * Custom template tags for this theme.
  */
@@ -146,4 +146,13 @@ require( get_template_directory() . '/inc/customizer.php' );
  * Load Jetpack compatibility file.
  */
 require( get_template_directory() . '/inc/jetpack.php' );
+
+
+/* Adding second menu area in dashboard */
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'crossfit'),
+    'secondary' => __( 'Secondary Menu', 'crossfit' ),
+ ) );
+
 
