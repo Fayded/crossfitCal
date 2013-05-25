@@ -14,6 +14,12 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+		<a href = "localhost:8888/crossfitCal/about">   About   </a> | <a href = "localhost:8888/crossfitCal/getstarted">   Get Started   </a> |  
+		<a href = "localhost:8888/crossfitCal/schedule">   Schedule   </a>|  <a href = "localhost:8888/crossfitCal/successstories">   Success Stories   </a> |
+		 <a href = "localhost:8888/crossfitCal/gallery">   Gallery   </a> |  <a href = "localhost:8888/crossfitCal/wod">   WOD   </a> |
+		  <a href = "localhost:8888/crossfitCal/contact">   Contact   </a> |  <a href = "localhost:8888/crossfitCal/blog">   BLOG   </a>
+		<p> 
+		</p>	
 		<div class="site-info">
 			<?php do_action( 'crossfit_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'crossfit' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'crossfit' ), 'WordPress' ); ?></a>

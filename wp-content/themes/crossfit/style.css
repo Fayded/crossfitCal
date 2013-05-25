@@ -391,8 +391,9 @@ a:active {
 .navigation-main {
 	clear: both;
 	display: block;
-	float: left;
-	width: 100%;
+	float: right;
+	padding-right: 100px;
+	width: 70%;
 }
 .navigation-main ul {
 	list-style: none;
@@ -400,12 +401,15 @@ a:active {
 	padding-left: 0;
 }
 .navigation-main li {
-	float: left;
+	float: right;
 	position: relative;
+	margin-right: 30px;
 }
 .navigation-main a {
 	display: block;
 	text-decoration: none;
+	font-size: 14px;
+	color: gray;
 }
 .navigation-main ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -603,15 +607,36 @@ object {
 }
 
 /* =Header 
-------------------------------------------------
-header {
+------------------------------------------------*/
+.site-header {
 	background-color: black;
-	height: 50px;
-
+	height: 100px;
 }
-*/
 
 
 /* remove header from home page */
 .page-id-29  .entry-title {display: none;} 
 
+/* Footer ----------------------------------------*/
+
+.site-footer {
+	background-color: black;
+	font-size: 14px;
+	height: 100px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.site-footer a:link {
+	color: gray;
+}
+
+.site-info {
+	color: gray;
+}
+.site-info a:link {
+	color: gray;
+}
+.site-info a:visited {
+	color: gray;
+}
