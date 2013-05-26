@@ -6,9 +6,7 @@
  *
  * @package crossfit
  */
-/* adding menu area to footer */
-        wp_nav_menu( array('container_class' => 'menu-footer',
-        'theme_location' => 'secondary') );
+
 ?>
 
 	</div><!-- #main -->
