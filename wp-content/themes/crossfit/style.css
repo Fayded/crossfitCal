@@ -611,6 +611,15 @@ object {
 .site-header {
 	background-color: black;
 	height: 100px;
+
+}
+
+.site-header a:link {
+	color: white;
+}
+
+.site-header a:visited {
+	color: #568524;
 }
 
 #sticky-header {
@@ -618,8 +627,23 @@ object {
 	width: 100%;
 	height: 40px;
 
-
 }
+#seconary-header-menu {
+	background-color: black;
+	width: 350px;
+	height: 30px;
+	float: right;
+	margin: 10px 260px 0px 0px;
+	text-align: center;
+	vertical-align: center;
+	font-size: 12px;
+	color: green;
+}	
+
+#seconary-header-menu a:link {
+	color: gray;
+}
+
 
 /* remove header from home page */
 .page-id-5  .entry-title {display: none;} 
@@ -645,7 +669,7 @@ object {
 	color: gray;
 }
 .site-info a:visited {
-	color: gray;
+	color: #568524;
 }
 
 #footer-green-bar {

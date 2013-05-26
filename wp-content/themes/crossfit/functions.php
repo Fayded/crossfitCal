@@ -148,12 +148,5 @@ require( get_template_directory() . '/inc/customizer.php' );
 require( get_template_directory() . '/inc/jetpack.php' );
 
 
-/* Adding second menu area in dashboard 
-
-register_nav_menus( array(
-    'primary' => __( 'Primary Menu', 'crossfit'),
-    'secondary' => __( 'Secondary Menu', 'crossfit' ),
- ) );
- */
 
 
