@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #main -->
-
+		<div id="footer-green-bar"></div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<a href = "localhost:8888/crossfitCal/about">   About   </a> | <a href = "localhost:8888/crossfitCal/getstarted">   Get Started   </a> |  
 		<a href = "localhost:8888/crossfitCal/schedule">   Schedule   </a>|  <a href = "localhost:8888/crossfitCal/successstories">   Success Stories   </a> |

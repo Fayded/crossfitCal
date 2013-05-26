@@ -614,7 +614,7 @@ object {
 }
 
 #sticky-header {
-	background-color: gray;
+	background-color: #DADBD9;
 	width: 100%;
 	height: 40px;
 
@@ -646,4 +646,9 @@ object {
 }
 .site-info a:visited {
 	color: gray;
+}
+
+#footer-green-bar {
+	background-color: #568524;
+	height: 10px;
 }

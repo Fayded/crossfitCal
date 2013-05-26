@@ -28,6 +28,7 @@
 				'after'  => '</div>',
 			) );
 		?>
+
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
