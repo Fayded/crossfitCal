@@ -609,7 +609,7 @@ object {
 /* =Header 
 ------------------------------------------------*/
 .site-header {
-	background-color: black;
+	background-color: 1c1c1c;
 	height: 100px;
 
 }
@@ -619,17 +619,17 @@ object {
 }
 
 .site-header a:visited {
-	color: #568524;
+	color: #5F862C;
 }
 
 #sticky-header {
-	background-color: #DADBD9;
+	background-color: #c6c6c6;
 	width: 100%;
 	height: 40px;
 
 }
 #seconary-header-menu {
-	background-color: black;
+	background-color: #1c1c1c;
 	width: 350px;
 	height: 30px;
 	float: right;
@@ -651,7 +651,7 @@ object {
 /* Footer ----------------------------------------*/
 
 .site-footer {
-	background-color: black;
+	background-color: #1c1c1c;
 	font-size: 14px;
 	height: 100px;
 	text-align: center;
@@ -669,10 +669,10 @@ object {
 	color: gray;
 }
 .site-info a:visited {
-	color: #568524;
+	color: #5F862C;
 }
 
 #footer-green-bar {
-	background-color: #568524;
+	background-color: #5F862C;
 	height: 10px;
 }
