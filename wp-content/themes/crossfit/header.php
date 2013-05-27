@@ -40,13 +40,13 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
-		<div id="seconary-header-menu">
+		<!--<div id="seconary-header-menu">
 			
 				<a href="http://localhost:8888/crossfitCal/the-cave-process">The Cave Process </a> // 
 				<a href="http://localhost:8888/crossfitCal/membership-policies">Membership Policies </a> // 
 				<a href="http://localhost:8888/crossfitCal/signup-and-pricing">Signup and Pricing </a> // 
 				<a href="http://localhost:8888/crossfitCal/faq">FAQ</a>
-		</div>
+		</div> -->
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
