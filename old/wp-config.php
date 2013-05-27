@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'crossfitcal_db');
+define('DB_NAME', 'mysql');
 
 /** MySQL database username */
 define('DB_USER', 'root');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '6 eE-&4;POe|V%/2gc5G|-~Mm7{qw|xJP!wr{0*<`HuxUujB-H4`Mk .~]5xK$u=');
-define('SECURE_AUTH_KEY',  'Qdn2`*w4!HlGVLFOwMwdWC+X%(;cG}8H#uu1WzjPw4u^MQG#0Z-<e{oTq-&^,YMD');
-define('LOGGED_IN_KEY',    '7X%]@9mtN5[g(m*g-9KQw/fGK&G{Af&=u-zg3|3vK&MA[BZrj+krYGLP r%QP]+T');
-define('NONCE_KEY',        'F%H/=`MmY%VbS,ctxwm-ybrr>f}Y8li.N]SoYjv||5h|KeC{Rc;^Wk30 R}5-j1`');
-define('AUTH_SALT',        'pxod4huW/B`*W+K.>F h`jpde|L{R*e0^N1Kk|;u5rbUmo1U$t,qhYC9+um-]dGZ');
-define('SECURE_AUTH_SALT', 'u!_oy/0+9c|?^+/N}qtyO.oh(8h{Et#Hwp8@?xQbAe,cB(ep{8n*3xgyQ5hm(k^U');
-define('LOGGED_IN_SALT',   'NQ>bpM@<{/7Yw0##km/sc,NxM|AFH9^LIgLA, IUo/tBo5&4$BTb=%tqWDV$B=n,');
-define('NONCE_SALT',       'C2N/{p9?mR.D  !E+`V]Xb@M.*!SA9UQhvTf7J%[]>j_TF@o@]5x4.:j]jq2Y40=');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
