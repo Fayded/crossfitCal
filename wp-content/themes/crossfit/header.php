@@ -14,10 +14,9 @@
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<!--[if lt IE 9]>
-<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
+<!--[if lt IE 9]><script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
 <![endif]-->
-
+<!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
 <?php wp_head(); ?>
 </head>
 
@@ -25,13 +24,20 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<div id="sticky-header">
-			<h2 id="sticky-header-text">Cave Crossfit!</h2>
-			insert social icons here 
+		<div id="sticky-header-signup">
+			<h2 id="sticky-header-text">Sign Up Now</h2>
+		</div> 
+		<div id="sticky-subscribe">
+			email form here
 		</div>
+		<div id="sticky-social-icons">
+			social icons here
+		</div>
+	</div>
 	<header id="masthead" class="site-header" role="banner">
+		<div class="container">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>			
+			<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="<?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>" /></a></h1>		
 		</div>
 
 		<nav id="site-navigation" class="navigation-main" role="navigation">
@@ -40,13 +46,7 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
-		<!--<div id="seconary-header-menu">
-			
-				<a href="http://localhost:8888/crossfitCal/the-cave-process">The Cave Process </a> // 
-				<a href="http://localhost:8888/crossfitCal/membership-policies">Membership Policies </a> // 
-				<a href="http://localhost:8888/crossfitCal/signup-and-pricing">Signup and Pricing </a> // 
-				<a href="http://localhost:8888/crossfitCal/faq">FAQ</a>
-		</div> -->
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="main" class="site-main">
