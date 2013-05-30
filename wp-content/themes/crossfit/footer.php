@@ -12,11 +12,11 @@
 	</div><!-- #main -->
 		<div class="footer-subscribe">
     		<div class="footercf-journal">
-        		<p>The Crossfit Journal is a fitness, health, and lifestyle publication dedicated to the improvement of athletic performance and quality of life</p>
+        		The Crossfit Journal is a fitness, health, and lifestyle publication dedicated to the improvement of athletic performance and quality of life
     		</div>
 <div class="footercf-signup">
-    <h2 class="footer-signup-title">Sign Up For Classes Today</h2>
-    <p>At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.</p>
+    Sign Up For Classes Today
+    At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.
 </div>
 <div id="signup-clear"></div>
 </div>
