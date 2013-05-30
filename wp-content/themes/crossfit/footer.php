@@ -10,7 +10,16 @@
 ?>
 
 	</div><!-- #main -->
-		<div id="footer-green-bar"></div>
+		<div class="footer-subscribe">
+    		<div class="footercf-journal">
+        		<p>The Crossfit Journal is a fitness, health, and lifestyle publication dedicated to the improvement of athletic performance and quality of life</p>
+    		</div>
+<div class="footercf-signup">
+    <h2 class="footer-signup-title">Sign Up For Classes Today</h2>
+    <p>At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.</p>
+</div>
+<div id="signup-clear"></div>
+</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<a href = "localhost:8888/crossfitCal/about">   About   </a> | <a href = "localhost:8888/crossfitCal/getstarted">   Get Started   </a> |  
 		<a href = "localhost:8888/crossfitCal/schedule">   Schedule   </a>|  <a href = "localhost:8888/crossfitCal/successstories">   Success Stories   </a> |
@@ -18,12 +27,6 @@
 		  <a href = "localhost:8888/crossfitCal/contact">   Contact   </a> |  <a href = "localhost:8888/crossfitCal/blog">   BLOG   </a>
 		<p> 
 		</p>	
-		<div class="site-info">
-			<?php do_action( 'crossfit_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'crossfit' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'crossfit' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'crossfit' ), 'crossfit', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

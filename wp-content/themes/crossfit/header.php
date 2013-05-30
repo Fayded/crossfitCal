@@ -25,19 +25,16 @@
 	<?php do_action( 'before' ); ?>
 	<div id="sticky-header">
 		<div id="sticky-header-signup">
-			<h2 id="sticky-header-text">Sign Up Now</h2>
+			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>
 		</div> 
-		<div id="sticky-subscribe">
-			email form here
-		</div>
 		<div id="sticky-social-icons">
-			social icons here
+			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-3') ) : ?> <?php endif; ?>
 		</div>
 	</div>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="container">
 		<div class="site-branding">
-			<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="<?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>" /></a></h1>		
+			<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="<?php bloginfo('description'); ?>" title="<?php bloginfo('name'); ?>" /></a>	
 		</div>
 
 		<nav id="site-navigation" class="navigation-main" role="navigation">
