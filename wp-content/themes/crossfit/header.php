@@ -23,14 +23,27 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
-	<div id="sticky-header">
-		<div id="sticky-header-signup">
-			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>
-		</div> 
-		<div id="sticky-social-icons">
-			<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-3') ) : ?> <?php endif; ?>
+		<div id="sticky-header">
+			<div class="container">
+				<div id="sticky-header-signup">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>
+					<form method="get" id="searchform" class="searchform" action="http://crossfitcal/" role="search">
+						<label for="s" class="screen-reader-text">Search</label>
+						<input type="search" class="field" name="s" value="" id="s" placeholder="Enter email to Subscribe and receive updates.">
+						<input type="submit" class="submit" id="searchsubmit" value="Search">
+					</form>
+				</div> 
+				<div id="sticky-social-icons">
+					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-3') ) : ?> <?php endif; ?>
+					<ul>
+						<li><a href="#"><img src="wp-content/themes/crossfit/images/facebook.png" alt="facebook" /></a></li>
+						<li><a href="#"><img src="wp-content/themes/crossfit/images/twitter.png" alt="twitter" /></a></li>
+						<li><a href="#"><img src="wp-content/themes/crossfit/images/youTube.png" alt="youTube" /></a></li>
+						<li><a href="#"><img src="wp-content/themes/crossfit/images/blog.png" alt="blog" /></a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</div>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="container">
 		<div class="site-branding">
