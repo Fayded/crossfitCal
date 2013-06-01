@@ -271,13 +271,22 @@ table {
 	float: left;
 	position: relative;
 	margin-left: 320px;
+	color: white;
+
 }
 th {
 	font-weight: bold;
 	background-color: #5F862C;
+	text-align: center;
 }
 td {
+	background-color: #1A1A1A;
+	text-align: center;
+}
+td.spring-cleaning {
 	background-color: #263511;
+	color: #D1D559;
+	text-align: center;
 }
 #
 img {
