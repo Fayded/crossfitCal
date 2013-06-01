@@ -273,13 +273,22 @@ table {
 	float: left;
 	position: relative;
 	margin-left: 320px;
+	color: white;
+
 }
 th {
 	font-weight: bold;
 	background-color: #5F862C;
+	text-align: center;
 }
 td {
+	background-color: #1A1A1A;
+	text-align: center;
+}
+td.spring-cleaning {
 	background-color: #263511;
+	color: #D1D559;
+	text-align: center;
 }
 #
 img {
@@ -667,6 +676,19 @@ object {
 /* Search widget */
 .widget_search .submit {
 	display: none;
+}
+
+/*Contact form styling
+-----------------------------------------------*/
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea
+{
+    background-color: #fff;
+    color: #000;
+    width: 75%;
+    top-border: 1px solid #e9e9e9;
 }
 
 /* =Infinite Scroll
