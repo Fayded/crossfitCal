@@ -18,15 +18,12 @@
     Sign Up For Classes Today
     At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.
 </div>
-<div id="signup-clear"></div>
-</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<a href = "localhost:8888/crossfitCal/about">   About   </a> | <a href = "localhost:8888/crossfitCal/getstarted">   Get Started   </a> |  
-		<a href = "localhost:8888/crossfitCal/schedule">   Schedule   </a>|  <a href = "localhost:8888/crossfitCal/successstories">   Success Stories   </a> |
-		 <a href = "localhost:8888/crossfitCal/gallery">   Gallery   </a> |  <a href = "localhost:8888/crossfitCal/wod">   WOD   </a> |
-		  <a href = "localhost:8888/crossfitCal/contact">   Contact   </a> |  <a href = "localhost:8888/crossfitCal/blog">   BLOG   </a>
-		<p> 
-		</p>	
+		<a href="localhost:8888/crossfitCal/about">About</a>|<a href="localhost:8888/crossfitCal/getstarted">Get Started</a> |  
+		<a href="localhost:8888/crossfitCal/schedule">Schedule</a>|<a href="localhost:8888/crossfitCal/successstories">Success Stories</a> |
+		<a href="localhost:8888/crossfitCal/gallery">Gallery</a>|<a href="localhost:8888/crossfitCal/wod">WOD</a> |
+		<a href="localhost:8888/crossfitCal/contact">Contact</a>|<a href="localhost:8888/crossfitCal/blog">Blog</a>
+		<p>© 2013 Cave CrossFit, All rights reserved</p>	
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

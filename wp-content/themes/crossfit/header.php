@@ -25,16 +25,16 @@
 	<?php do_action( 'before' ); ?>
 		<div id="sticky-header">
 			<div class="container">
+				<p>Sign Up Now</p>
 				<div id="sticky-header-signup">
-					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>
-					<form method="get" id="searchform" class="searchform" action="http://crossfitcal/" role="search">
-						<label for="s" class="screen-reader-text">Search</label>
-						<input type="search" class="field" name="s" value="" id="s" placeholder="Enter email to Subscribe and receive updates.">
-						<input type="submit" class="submit" id="searchsubmit" value="Search">
-					</form>
+				<!--<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>-->						
+				<form action="index.html" method="post" class="subscribe-form">
+      					<input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus="">
+      					<button type="submit" class="subscribe-submit"><img src="wp-content/themes/crossfit/images/newsletter.jpg" /></button>
+    				</form>
 				</div> 
 				<div id="sticky-social-icons">
-					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-3') ) : ?> <?php endif; ?>
+					<!--<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-3') ) : ?> <?php endif; ?>-->
 					<ul>
 						<li><a href="#"><img src="wp-content/themes/crossfit/images/facebook.png" alt="facebook" /></a></li>
 						<li><a href="#"><img src="wp-content/themes/crossfit/images/twitter.png" alt="twitter" /></a></li>
