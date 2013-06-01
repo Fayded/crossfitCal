@@ -25,9 +25,8 @@
 	<?php do_action( 'before' ); ?>
 		<div id="sticky-header">
 			<div class="container">
-				<p>Sign Up Now</p>
 				<div id="sticky-header-signup">
-				<!--<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>-->						
+				<!--<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>-->
 				<form action="index.html" method="post" class="subscribe-form">
       					<input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus="">
       					<button type="submit" class="subscribe-submit"><img src="wp-content/themes/crossfit/images/newsletter.jpg" /></button>

@@ -10,20 +10,23 @@
 ?>
 
 	</div><!-- #main -->
-		<div class="footer-subscribe">
-    		<div class="footercf-journal">
-        		The Crossfit Journal is a fitness, health, and lifestyle publication dedicated to the improvement of athletic performance and quality of life
-    		</div>
-<div class="footercf-signup">
-    Sign Up For Classes Today
-    At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.
-</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<a href="localhost:8888/crossfitCal/about">About</a>|<a href="localhost:8888/crossfitCal/getstarted">Get Started</a> |  
-		<a href="localhost:8888/crossfitCal/schedule">Schedule</a>|<a href="localhost:8888/crossfitCal/successstories">Success Stories</a> |
-		<a href="localhost:8888/crossfitCal/gallery">Gallery</a>|<a href="localhost:8888/crossfitCal/wod">WOD</a> |
-		<a href="localhost:8888/crossfitCal/contact">Contact</a>|<a href="localhost:8888/crossfitCal/blog">Blog</a>
-		<p>© 2013 Cave CrossFit, All rights reserved</p>	
+		<div class="container">
+    		<div class="footercf journal">
+        		<p>The Crossfit Journal is a fitness, health, and lifestyle publication dedicated to the improvement of athletic performance and quality of life</p>
+    		</div>
+		<div class="footercf signup">
+    			<h1>Sign Up For Classes Today</h1>
+    			<p>At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.</p>
+		</div>
+		<div id="footerNav">
+			<a href="localhost:8888/crossfitCal/about">About</a>|<a href="localhost:8888/crossfitCal/getstarted">Get Started</a> |  
+			<a href="localhost:8888/crossfitCal/schedule">Schedule</a>|<a href="localhost:8888/crossfitCal/successstories">Success Stories</a> |
+			<a href="localhost:8888/crossfitCal/gallery">Gallery</a>|<a href="localhost:8888/crossfitCal/wod">WOD</a> |
+			<a href="localhost:8888/crossfitCal/contact">Contact</a>|<a href="localhost:8888/crossfitCal/blog">Blog</a>
+		</div>
+		<p>© 2013 Cave CrossFit, All rights reserved</p>
+		</div>	
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
