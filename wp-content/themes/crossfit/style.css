@@ -565,23 +565,35 @@ a:active {
 }
 .homepage-main {
 	background-image: url(http://localhost:8888/crossfitCal/wp-content/themes/crossfit/images/homepage-main.jpg);
-	max-height: 720px;
-	max-width: 1600px;
+	height: 650px;
+	width: 1200px;
+	margin: -179px 0px 0px -130px;
+
 }
 .homepage-featured {
-	margin: 200px 0px 0px 100px;
 	position: relative;
+	margin: 150px;
+	width: 345px;
+
+}
+.homepage-featured h1{
+	font-size: 40px;
+	color: white;
+}
+p.homepage-featured {
+	color: white;
+	font-size: 14px;
 }
 .latest-videos {
 	float: left;
 	margin-left: 100px;
-	position: relative;
+	position: absolute;
 	width: 200px;
 }
 .latest-events {
-	float: right;
-	margin-right: 100px;
-	position: relative;
+	float: left;
+	margin-left: 400px;
+	position: absolute;
 	width: 200px;
 }
 
