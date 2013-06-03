@@ -450,9 +450,10 @@ a:active {
 
 .navigation-main {
 	display: block;
-	float: right;
-	margin: 51px 0 0;
-	width: 80%;
+	margin: 0;
+    position: absolute;
+    top: 55px;
+    right: 0;	
 }
 .navigation-main ul {
 	list-style: none;
@@ -464,13 +465,22 @@ a:active {
 	position: relative;
 	margin-right: 30px;
 }
-.navigation-main a {
+.navigation-main li:first-child {
+    margin-right: 0;
+}
+.navigation-main a, .navigation-main a:visited {
+    font-family: Sansus, Helevetica, sans-serif !important;
 	display: block;
 	text-decoration: none;
-	font-size: 12px;
+	font-size: 16px;
 	color: #d5d5d5;
 	text-transform: uppercase;
 }
+
+.navigation-main a:hover, .navigation-main a:active {
+	color: #FFF;
+}
+
 .navigation-main ul ul {
 	display: none;
 	float: left;
@@ -487,9 +497,10 @@ a:active {
 .navigation-main ul ul a {
     width: auto;
 }
-.navigation-main ul ul li {
+.navigation-main ul:first-child ul li {
     display: inline-block;
     float: left;
+    margin: 0 15px;
 }
 .navigation-main li:hover > a {
 }
@@ -688,7 +699,8 @@ object {
 ------------------------------------------------*/
 .container {
      width: 960px;
-     margin: 0 auto;   
+     margin: 0 auto;  
+     position: relative; 
 }
 
 @font-face{
@@ -717,8 +729,8 @@ object {
 }
 @font-face{
 	font-family:"Sansus";
-	src:url("fonts/Sansus.eot");
-	src:url("fonts/Sansus.eot") format("eot"),url("fonts/Sansus.woff") format("woff"),url("fonts/Sansus.ttf") format("truetype"),url("fonts/Sansus.svg") format("svg");
+	src:url("fonts/Sansus Webissimo-Regular.eot");
+	src:url("fonts/Sansus Webissimo-Regular.eot") format("eot"),url("fonts/Sansus.woff") format("woff"),url("fonts/Sansus Webissimo-Regular.ttf") format("truetype"),url("fonts/Sansus Webissimo-Regular.svg") format("svg");
 }
 @font-face{
 	font-family:"SansusItalic";
@@ -733,14 +745,6 @@ object {
 	height: 135px;
 	position: relative;
 	margin: 40px 0px 0px 0px;
-}
-
-.site-header a:link {
-	color: white;
-}
-
-.site-header a:visited {
-	color: #5F862C;
 }
 
 .site-branding {
@@ -930,7 +934,9 @@ h2.footer-signup-title {
 
 #footerNav {
     clear: both;
-    text-align: center; 
+    text-align: center;
+    width: 77%;
+    margin: 0 auto; 
 }
 
 #footerNav ul {
@@ -961,6 +967,7 @@ h2.footer-signup-title {
     float: none;
     margin: 25px 0;
     text-align: center;
+    text-shadow: none;
 }
 
 .footercf p {
