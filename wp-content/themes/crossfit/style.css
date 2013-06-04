@@ -736,9 +736,11 @@ object {
 		top: 100px; 
 		left: 50%;
 		margin-left: -300px;
-		width: 520px;
-		background: #1E1E1E url(wp-content/themes/crossfit/images/logo.png);
+		width: 800px;
+		height: 300px;
+		background: #1E1E1E url(images/popup-logo.jpg) no-repeat;
 		position: absolute;
+		vertical-align: middle;
 		z-index: 101;
 		padding: 30px 40px 34px;
 		-moz-border-radius: 5px;
@@ -748,6 +750,19 @@ object {
 		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		}
+	.modal-left {
+		position: absolute;
+		text-align: center;
+		width: 350px;
+		margin-left: -40px;
+		margin-top: 70px;
+	}
+	.modal-contact {
+		position: relative;
+		width: 350px;
+		float: right;
+		background-color: white;
+	}
 		
 	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
 	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
@@ -782,15 +797,19 @@ object {
 	
 	*/
 	h1.modal  {
-		font-size: 40px;
+		font-size: 60px;
 		color: green;
+		letter-spacing: 2px;
 	}
 	p.modal {
-		font-size: 18px;
+		font-size: 20px;
 		color: white;
+		letter-spacing: 2px;
 	}
 	span#popup-link  {
 		color: green;
+		font-size: 20px;
+		text-decoration: none;
 	}
 	.big-link { 
 		display:block; 
