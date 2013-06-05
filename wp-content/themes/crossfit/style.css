@@ -588,6 +588,7 @@ p.homepage-featured {
 	color: white;
 	font-size: 14px;
 }
+
 .latest-videos {
 	float: left;
 	display: block;
@@ -597,6 +598,26 @@ p.homepage-featured {
 	width: 200px;
     float: left;
     display: block;
+}
+
+.contact-page-form {
+	float: right;
+
+}
+.contact-page-directions {
+	width: 800px;
+	margin: auto 0;
+	background: url(images/iron-background.jpg);
+
+}
+.contact-page-map {
+	width: 200px;
+	float: left;
+
+}
+.driving-directions {
+	width: 200px;
+	float: right;
 }
 
 /* =Asides
@@ -814,13 +835,36 @@ object {
 		text-decoration: none;
 	}
 	.big-link { 
-		display:block; 
-		margin-top: 100px; 
-		text-align: center; 
-		font-size: 40px; 
-		color: #06f;
-		margin: auto 0; 
-	}
+	border-top: 1px solid #96d1f8;
+   	background: #2fad42;
+   	background: -webkit-gradient(linear, left top, left bottom, from(#569c3e), to(#2fad42));
+   	background: -webkit-linear-gradient(top, #569c3e, #2fad42);
+   	background: -moz-linear-gradient(top, #569c3e, #2fad42);
+   	background: -ms-linear-gradient(top, #569c3e, #2fad42);
+   	background: -o-linear-gradient(top, #569c3e, #2fad42);
+   	-webkit-border-radius: 4px;
+   	-moz-border-radius: 4px;
+   	border-radius: 4px;
+   	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	box-shadow: rgba(0,0,0,1) 0 1px 0;
+   	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   	color: #ffffff;
+   	font-size: 14px;
+   	font-family: Georgia, serif;
+   	text-decoration: none;
+   	vertical-align: middle;
+   	}
+.big-link:hover {
+   	border-top-color: #36d189;
+   	background: #36d189;
+   	color: #ccc;
+   	}
+.big-link:active {
+   	border-top-color: #205c1b;
+   	background: #205c1b;
+   	}
+}
 
 
 
