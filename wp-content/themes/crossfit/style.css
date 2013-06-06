@@ -599,6 +599,13 @@ p.homepage-featured {
     float: left;
     display: block;
 }
+.meet-the-coaches {
+	width: 1200px;
+	height: 416px;
+	position: absolute;
+	float: left;
+	background-image: url(../crossfit/images/iron-background.jpg);
+}
 
 .contact-page-form {
 	float: left;
