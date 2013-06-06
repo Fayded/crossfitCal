@@ -607,9 +607,12 @@ p.homepage-featured {
 	float: right;
 }
 .contact-page-directions {
-	width: 800px;
-	margin: auto 0;
-	background-image: url(wp-content/themes/crossfit/images/iron-background.jpg);
+	width: 1200px;
+	height: 416px;
+	position: absolute;
+	float: left;
+	background-image: url(../crossfit/images/iron-background.jpg);
+
 }
 .contact-page-map {
 	width: 200px;
