@@ -196,7 +196,29 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote {
-	margin: 0 1.5em;
+margin:1.5em 10px;
+padding:.5em 10px;
+quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+color:#ccc;
+content:open-quote;
+font-size:4em;
+line-height:.1em;
+margin-right:.25em;
+vertical-align:-.4em;
+}
+blockquote:after {
+	color: #ccc;
+	content:close-quote;
+	font-size: 4em;
+	line-height: .1em;
+	margin-right: .24em;
+	vertical-align: -.4em;
+	float: right;
+}
+blockquote p {
+display:inline;
 }
 address {
 	margin: 0 0 1.5em;
@@ -575,10 +597,15 @@ a:active {
 }
 .homepage-main {
 	background-image: url(http://localhost:8888/crossfitCal/wp-content/themes/crossfit/images/homepage-main.jpg);
-
+	width: 1400px;
+	position: relative;
+	margin-left: 0px;
 }
 .homepage-featured {
 	position: relative;
+	float: left;
+	margin: 10px 0px 0px 80px;
+	width: 300px;
 }
 .homepage-featured h1{
 	font-size: 40px;
