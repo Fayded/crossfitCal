@@ -775,6 +775,46 @@ object {
 	border: none;
 }
 
+#contact-area {
+	float: right;
+	margin-right: 40px;
+	width: 300px;
+	height: 200px;
+}
+#contact-area textarea,
+#contact-area input {
+	background-color: black;
+	color: #C3C9BB;
+	width: 300px;
+}
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+	background-color: #5F8C2C;
+	color: white;
+	box-shadow: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #5F8C2C;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #5F8C2C;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #5F8C2C;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #5F8C2C;
+}
+
 /*	--------------------------------------------------
 	Reveal Modals
 	-------------------------------------------------- */
@@ -796,9 +836,9 @@ object {
 		top: 100px; 
 		left: 50%;
 		margin-left: -300px;
-		width: 800px;
+		width: 750px;
 		height: 300px;
-		background: #1E1E1E url(images/popup-logo.jpg) no-repeat;
+		background: #1E1E1E;
 		position: absolute;
 		vertical-align: middle;
 		z-index: 101;
@@ -809,14 +849,17 @@ object {
 		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		background-image: url(images/popup-logo.jpg);
+		background-repeat: no-repeat;
 		}
 	.modal-left {
 		position: absolute;
 		text-align: center;
-		width: 350px;
-		margin-left: -40px;
-		margin-top: 70px;
+		width: 300px;
+		margin-top: 30px;
+		margin-left: -20px;
 	}
+	
 	.modal-contact {
 		position: relative;
 		width: 350px;
@@ -830,7 +873,7 @@ object {
 	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
 	
 	.reveal-modal .close-reveal-modal {
-		font-size: 22px;
+		font-size: 32px;
 		line-height: .5;
 		position: absolute;
 		top: 8px;
@@ -856,29 +899,25 @@ object {
 	</div>
 	
 	*/
-	h1.modal  {
+	h1.modal-text  {
 		font-size: 60px;
-		color: green;
+		color: #5F8C2C;
 		letter-spacing: 2px;
+		text-decoration: none;
 	}
-	p.modal {
+	p.modal-text {
 		font-size: 20px;
 		color: white;
 		letter-spacing: 2px;
+		text-decoration: none;
 	}
 	span#popup-link  {
-		color: green;
+		color: #5F8C2C;
 		font-size: 20px;
 		text-decoration: none;
 	}
 	.big-link { 
-	border-top: 1px solid #96d1f8;
-   	background: #2fad42;
-   	background: -webkit-gradient(linear, left top, left bottom, from(#569c3e), to(#2fad42));
-   	background: -webkit-linear-gradient(top, #569c3e, #2fad42);
-   	background: -moz-linear-gradient(top, #569c3e, #2fad42);
-   	background: -ms-linear-gradient(top, #569c3e, #2fad42);
-   	background: -o-linear-gradient(top, #569c3e, #2fad42);
+   	background: #5F8C2C;
    	-webkit-border-radius: 4px;
    	-moz-border-radius: 4px;
    	border-radius: 4px;
@@ -886,22 +925,25 @@ object {
    	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    	box-shadow: rgba(0,0,0,1) 0 1px 0;
    	text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   	color: #ffffff;
+   	color: white;
    	font-size: 14px;
    	font-family: Georgia, serif;
    	text-decoration: none;
    	vertical-align: middle;
+   	padding: 9px 18px;
+   	margin-left: 20px;
    	}
-.big-link:hover {
-   	border-top-color: #36d189;
-   	background: #36d189;
+	.big-link:hover {
+   	background: #5F8C2C;
    	color: #ccc;
    	}
-.big-link:active {
-   	border-top-color: #205c1b;
-   	background: #205c1b;
+	.big-link:active {
+   	background: #5F8C2C;
    	}
-}
+   	a.big-link {
+   		color: white;
+   	}
+
 
 
 
@@ -1216,7 +1258,6 @@ h2.footer-signup-title {
     text-transform: uppercase;
     margin: 0;   
 }
-
 
 .journal img {float: left; padding: 0 10px 5px 0;}
 
