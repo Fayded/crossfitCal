@@ -12,14 +12,18 @@
 	</div><!-- #main -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
+    		<a style="display:block" href="http://journal.crossfit.com">
     		<div class="footercf journal">
 			<img src="../wp-content/themes/crossfit/images/footer_logo.png" />
         		<p>The Crossfit Journal is a fitness, health, and lifestyle publication dedicated to the improvement of athletic performance and quality of life.</p>
     		</div>
+    		</a>
+		<a style="display:block" href="#" data-reveal-id="myModal" data-animation="fade">
 		<div class="footercf signup">
     			<h1>Sign Up For Classes Today</h1>
     			<p>At Cave CrossFit you will receive something much more valuable than just a workout.  If you're ready to embarkon a truly life-changing journey.</p>
 		</div>
+	</a>
 		<div id="footerNav">
 			<ul>
 			<li><a href="localhost:8888/crossfitCal/about">About</a></li>
