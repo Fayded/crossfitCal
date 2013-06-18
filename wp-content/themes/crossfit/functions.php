@@ -68,6 +68,7 @@ add_action( 'after_setup_theme', 'crossfit_setup' );
  *
  * Hooks into the after_setup_theme action.
  */
+/*
 function crossfit_register_custom_background() {
 	$args = array(
 		'default-color' => 'ffffff',
@@ -86,7 +87,7 @@ function crossfit_register_custom_background() {
 	}
 }
 add_action( 'after_setup_theme', 'crossfit_register_custom_background' );
-
+*/
 /**
  * Register widgetized area and update sidebar with default widgets
  */
@@ -107,7 +108,6 @@ add_action( 'widgets_init', 'crossfit_widgets_init' );
  */
 function crossfit_scripts() {
 	wp_enqueue_style( 'crossfit-style', get_stylesheet_uri() );
-
 	wp_enqueue_script( 'crossfit-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'crossfit-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
@@ -148,5 +148,37 @@ require( get_template_directory() . '/inc/customizer.php' );
 require( get_template_directory() . '/inc/jetpack.php' );
 
 
+/* adding widget area to header */
+function my_widgets_init() {
 
+register_sidebar( array(
+    'name' => __( 'Main Sidebar', 'crossfit' ),
+    'id' => 'sidebar-1',
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget' => "</div>",
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+) );
+
+register_sidebar( array(
+    'name' => __( 'Header Area Left', 'crossfit' ),
+    'id' => 'sidebar-2',
+    'description' => __( 'An optional widget area for your site header left', 'crossfit' ),
+    'before_widget' => '<div id="%1$s" class="headwidget %2$s">',
+    'after_widget' => "</div>",
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+) );
+
+register_sidebar( array(
+    'name' => __( 'Header Area Right', 'crossfit' ),
+    'id' => 'sidebar-3',
+    'description' => __( 'An optional widget area for your site header right', 'crossfit' ),
+    'before_widget' => '<div id="%1$s" class="headwidget %2$s">',
+    'after_widget' => "</div>",
+    'before_title' => '<h3>',
+    'after_title' => '</h3>',
+) );
+}
+add_action( 'widgets_init', 'my_widgets_init' );
 

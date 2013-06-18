@@ -884,10 +884,10 @@ object {
 /* =Header 
 ------------------------------------------------*/
 .site-header {
-	background: #1C1C1C url(images/header_bg.png);
+	background: #1C1C1C url(images/header_bg.png) bottom repeat-x;
 	height: 135px;
 	position: relative;
-	margin: 40px 0px 0px 0px;
+	margin: 51px 0px 0px 0px;
 }
 
 .site-branding {

@@ -27,10 +27,11 @@
 			<div class="container">
 				<div id="sticky-header-signup">
 				<!--<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('sidebar-2') ) : ?> <?php endif; ?>-->
+				<p>SIGN UP NOW</p>
 				<form action="index.html" method="post" class="subscribe-form">
-      					<input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus="">
+      					<input type="email" name="email" class="subscribe-input" placeholder="Enter email to Subscribe and receive updates." autofocus="">
       					<button type="submit" class="subscribe-submit">
-<img src="<?php echo get_template_directory_uri(); ?>/images/newsletter.jpg" /></button>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/newsletter.jpg" /></button>
     				</form>
 				</div> 
 				<div id="sticky-social-icons">
@@ -52,7 +53,7 @@
 
 		<nav id="site-navigation" class="navigation-main" role="navigation">
 			<h1 class="menu-toggle"><?php _e( 'Menu', 'crossfit' ); ?></h1>
-			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'crossfit' ); ?>"><?php _e( 'Skip to content', 'crossfit' ); ?></a></div>
+			<!--<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'crossfit' ); ?>"><?php _e( 'Skip to content', 'crossfit' ); ?></a></div>-->
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->

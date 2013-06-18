@@ -26,5 +26,6 @@ get_header(); ?>
 		</div><!-- #content -->
 
 	</div><!-- #primary -->
-<!--removed get(sidebar();-->)
+
+<!--removed get(sidebar();-->
 <?php get_footer(); ?>
